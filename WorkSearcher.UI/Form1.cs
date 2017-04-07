@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WorkSearcher.BL;
 
 namespace WorkSearcher.UI
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private ISearcher _searcher;
+        public Form1(ISearcher searcher)
         {
+            _searcher = searcher;
             InitializeComponent();
         }
+
+
     }
 }

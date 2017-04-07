@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkSearcher.UI", "WorkSearcher.UI\WorkSearcher.UI.csproj", "{8FA02D7D-F50F-466B-8E3F-75CD821B59B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkSearcher.BL", "WorkSearcher.BL\WorkSearcher.BL.csproj", "{5DEA536D-64D6-4D9C-A4CE-7508B53615DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSearcher.Computrabajo", "WorkerSearcher.Computrabajo\WorkerSearcher.Computrabajo.csproj", "{834C97DA-C222-4EC6-94A2-304CCDC07CCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sites", "Sites", "{FBD77593-C74C-40B3-939A-392CC8B4913F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6CD17E35-EFD3-49A3-915B-DEF09925ADEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSearcher.ComputrabajoTests", "WorkerSearcher.ComputrabajoTests\WorkerSearcher.ComputrabajoTests.csproj", "{CE6C6D05-812E-422B-B737-76B2694FD643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,23 @@ Global
 		{8FA02D7D-F50F-466B-8E3F-75CD821B59B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA02D7D-F50F-466B-8E3F-75CD821B59B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA02D7D-F50F-466B-8E3F-75CD821B59B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEA536D-64D6-4D9C-A4CE-7508B53615DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEA536D-64D6-4D9C-A4CE-7508B53615DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEA536D-64D6-4D9C-A4CE-7508B53615DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEA536D-64D6-4D9C-A4CE-7508B53615DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834C97DA-C222-4EC6-94A2-304CCDC07CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834C97DA-C222-4EC6-94A2-304CCDC07CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834C97DA-C222-4EC6-94A2-304CCDC07CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834C97DA-C222-4EC6-94A2-304CCDC07CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6C6D05-812E-422B-B737-76B2694FD643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6C6D05-812E-422B-B737-76B2694FD643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6C6D05-812E-422B-B737-76B2694FD643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6C6D05-812E-422B-B737-76B2694FD643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{834C97DA-C222-4EC6-94A2-304CCDC07CCA} = {FBD77593-C74C-40B3-939A-392CC8B4913F}
 	EndGlobalSection
 EndGlobal
